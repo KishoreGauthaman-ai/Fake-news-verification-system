@@ -22,6 +22,9 @@ frontend/.vite/
 .DS_Store
 Thumbs.db
 
+# Agent / MCP reference files
 AGENTS.md
+BUILD_PROMPT.md
 BUILD_ARCHICTURE.md
-BUILD_ARCHICTURE.md
+.playwrite-mcp
+.serena

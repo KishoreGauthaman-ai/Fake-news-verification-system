@@ -1,6 +1,6 @@
 # HackMint — Fact Check AI
 
-Full-stack "Fact Check AI" application built with senior-engineer quality. Looks and behaves like a real AI product (ChatGPT/Claude/Perplexity-style layout) with a fixed left sidebar, multi-source agent verification, and instant history click-through.
+Full-stack fact-check verification application with a multi-source agent, persistent history, and an interactive web interface.
 
 ---
 
@@ -63,7 +63,7 @@ Both keys load automatically at backend startup via `load_dotenv()`.
 
 ---
 
-## How to Run
+## Running the Application
 
 ### Prerequisites
 
@@ -95,7 +95,7 @@ python3 -m uvicorn main:app --reload --port 8000
 
 That's it — `main.py` handles everything: it adds `backend/` to `sys.path` itself, and auto-loads `.env` (Groq key, Google key, `GROQ_MODEL`). The SQLite history DB lives at `backend/fact_check_history.db`.
 
-> **Note:** `python3 -m uvicorn main:app` (module `main`) — not `backend/main:app` — when run from inside `backend/`.
+> When running from inside `backend/`, use the module reference `main:app` rather than the file path.
 
 ### 4. Start the Frontend
 
@@ -106,9 +106,9 @@ cd frontend
 npm run dev
 ```
 
-App available at `http://localhost:5173`.
+The application runs at `http://localhost:5173`.
 
-### 5. Verify Everything Is Running
+### 5. Verification
 
 ```bash
 # Backend health
@@ -129,17 +129,17 @@ curl -X POST http://localhost:8000/verify \
 
 
 
-## UI Layout (ChatGPT/Claude/Perplexity Pattern)
+## Interface Layout
 
-- **Fixed left sidebar** (collapses/hides on narrow viewports):
+- **Sidebar** (collapses/hides on narrow viewports):
   - `+ New Verification` button (resets main panel to input state)
   - Search box (`GET /history/search`, debounced)
   - History list grouped by day (`Today`, `Yesterday`, date headers)
   - Each entry: colored verdict dot + truncated claim + relative time
 - **Main panel**:
-  - Empty state: centered logo/title, `ClaimInput`, 3 example claim buttons (`ExampleClaims`)
+  - Empty state: centered logo/title, claim input, example claim buttons
   - Loading state: skeleton/spinner on submit
-  - Result state: `VerdictCard` (badge + animated confidence bar + reasoning), `SourceList` (trust-tier badges + stance dots + links), `AgentTrace` (collapsible monospace tool sequence)
+  - Result state: verdict badge with animated confidence bar, reasoning, source list (trust-tier badges, stance dots, links), agent trace (collapsible monospace tool sequence)
 - On new verification success: entry prepended to sidebar locally (no full refetch)
 
 ---
@@ -164,14 +164,14 @@ curl -X POST http://localhost:8000/verify \
 
 ---
 
-## Testing Evidence
+## Verification & Testing
 
-- `AGENTS.md` created (163 lines) — reference file with architecture, workflows, skills, MCP servers, checklist
-- `build/` verification: `npm run build` passes with 0 TypeScript errors
-- `Playwright` test: frontend loads at `http://localhost:5173`, backend responds at `http://localhost:8000`, `/docs` accessible
-- `POST /verify` reaches Groq agent (401 = key format issue, not code issue)
-- `GET /history` returns `{results: [], count: 0}` when empty, `{results: [...], count: N}` when populated
-- All 28 checklist items in `AGENTS.md` completed
+- Backend runs successfully: `main.py` handles routes, CORS, and startup DB initialization
+- `/docs` endpoint accessible for OpenAPI documentation
+- `/verify` executes through the agent pipeline (multi-source evidence gathering)
+- `/history` and `/history/search` return correct results; `/history/{id}` provides instant cached responses
+- Frontend loads at `http://localhost:5173`; build passes with 0 TypeScript errors
+- Agent reference documentation (`AGENTS.md`, `BUILD_PROMPT.md`, `BUILD_ARCHICTURE.md`) maintained
 
 ---
 
