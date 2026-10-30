@@ -1,0 +1,13 @@
+# Backend dependencies — Fact Check AI (HackMint)
+# Install with: pip install -r requirements.txt
+
+fastapi>=0.110.0
+uvicorn>=0.29.0
+langchain>=0.1.0
+langchain-groq>=0.1.0
+feedparser>=6.0.0
+ddgs>=5.0.0
+trafilatura>=1.6.0
+beautifulsoup4>=4.12.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0

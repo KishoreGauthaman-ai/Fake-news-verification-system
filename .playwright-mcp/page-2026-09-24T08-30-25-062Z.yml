@@ -1,0 +1,39 @@
+- generic [ref=f1e4]:
+  - complementary [ref=f1e5]:
+    - generic [ref=f1e7]:
+      - generic [ref=f1e8]: F
+      - generic [ref=f1e10]:
+        - heading "Fact Check AI" [level=1] [ref=f1e11]
+        - paragraph [ref=f1e12]: AI-powered claim verification
+    - button "New Verification" [ref=f1e14]
+    - textbox "Search history..." [ref=f1e18]
+    - generic [ref=f1e20]:
+      - paragraph [ref=f1e21]: No verifications yet.
+      - paragraph [ref=f1e22]: Check your first claim to get started.
+  - main [ref=f1e23]:
+    - generic [ref=f1e25]:
+      - generic [ref=f1e26]: F
+      - heading "Fact Check AI" [level=2] [ref=f1e30]
+      - paragraph [ref=f1e31]: Verify claims with multi-source evidence. The agent checks RSS feeds, web sources, and scores trust automatically.
+      - generic [ref=f1e32]:
+        - generic [ref=f1e34]:
+          - textbox "Paste a claim or headline you want to verify..." [ref=f1e35]
+          - button "Submit claim" [disabled] [ref=f1e36]
+        - generic [ref=f1e39]:
+          - generic [ref=f1e40]: Try an example
+          - generic [ref=f1e45]:
+            - button "Kangana Ranaut showed her middle fing..." [ref=f1e46]
+            - button "COVID-19 vaccines contain microchips" [ref=f1e47]
+            - button "The 2024 election results were rigged..." [ref=f1e48]
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]: Try an example
+        - generic [ref=f1e56]:
+          - button "COVID-19 vaccines contain tracking microchips Health claim" [ref=f1e57]:
+            - generic [ref=f1e58]: COVID-19 vaccines contain tracking microchips
+            - text: Health claim
+          - button "The 2024 US election results were manipulated Election claim" [ref=f1e59]:
+            - generic [ref=f1e60]: The 2024 US election results were manipulated
+            - text: Election claim
+          - button "Climate change is a complete hoax Science claim" [ref=f1e61]:
+            - generic [ref=f1e62]: Climate change is a complete hoax
+            - text: Science claim

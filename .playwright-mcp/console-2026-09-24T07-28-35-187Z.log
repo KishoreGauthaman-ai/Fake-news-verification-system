@@ -1,0 +1,12 @@
+[     312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/history?limit=50&offset=0:0
+[     312ms] [ERROR] TypeError: Failed to fetch
+    at Ae (http://localhost:5173/assets/index-BRPRra5E.js:9:57230)
+    at Object.getHistory (http://localhost:5173/assets/index-BRPRra5E.js:9:57507)
+    at http://localhost:5173/assets/index-BRPRra5E.js:15:15181
+    at Tl (http://localhost:5173/assets/index-BRPRra5E.js:8:94961)
+    at Uu (http://localhost:5173/assets/index-BRPRra5E.js:8:118140)
+    at Hu (http://localhost:5173/assets/index-BRPRra5E.js:8:117913)
+    at Uu (http://localhost:5173/assets/index-BRPRra5E.js:8:119356)
+    at Hu (http://localhost:5173/assets/index-BRPRra5E.js:8:117913)
+    at Uu (http://localhost:5173/assets/index-BRPRra5E.js:8:118186)
+    at ff (http://localhost:5173/assets/index-BRPRra5E.js:8:132600) @ :0

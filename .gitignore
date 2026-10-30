@@ -1,0 +1,23 @@
+# Database
+fact_check_history.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db

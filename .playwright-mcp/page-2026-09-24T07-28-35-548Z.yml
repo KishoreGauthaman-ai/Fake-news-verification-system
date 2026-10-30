@@ -1,0 +1,40 @@
+- generic [ref=e4]:
+  - button "Toggle sidebar" [ref=e5]
+  - complementary [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: F
+        - heading "Fact Check AI" [level=1] [ref=e11]
+      - paragraph [ref=e12]: Verify claims with AI-powered evidence
+    - button "New Verification" [ref=e14]
+    - textbox "Search history..." [ref=e21]
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: No verifications yet.
+      - paragraph [ref=e25]: Start with a new claim.
+  - main [ref=e26]:
+    - generic [ref=e28]:
+      - generic [ref=e29]: F
+      - heading "Fact Check AI" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Verify claims with multi-source evidence. The agent checks RSS feeds, web sources, and scores trust automatically.
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - textbox "Paste a claim or headline you want to verify..." [ref=e37]
+          - button "Submit claim" [disabled] [ref=e38]
+        - generic [ref=e41]:
+          - generic [ref=e42]: Try an example
+          - generic [ref=e46]:
+            - button "Kangana Ranaut showed her middle fing..." [ref=e47]
+            - button "COVID-19 vaccines contain microchips" [ref=e48]
+            - button "The 2024 election results were rigged..." [ref=e49]
+      - generic [ref=e51]:
+        - generic [ref=e52]: Try an example
+        - generic [ref=e56]:
+          - button "COVID-19 vaccines contain tracking microchips Health claim" [ref=e57]:
+            - generic [ref=e58]: COVID-19 vaccines contain tracking microchips
+            - text: Health claim
+          - button "The 2024 US election results were manipulated Election claim" [ref=e59]:
+            - generic [ref=e60]: The 2024 US election results were manipulated
+            - text: Election claim
+          - button "Climate change is a complete hoax Science claim" [ref=e61]:
+            - generic [ref=e62]: Climate change is a complete hoax
+            - text: Science claim

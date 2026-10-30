@@ -1,0 +1,39 @@
+- generic [ref=f2e4]:
+  - complementary [ref=f2e5]:
+    - generic [ref=f2e6]:
+      - generic [ref=f2e7]:
+        - generic [ref=f2e8]: F
+        - heading "Fact Check AI" [level=1] [ref=f2e9]
+      - paragraph [ref=f2e10]: AI-powered claim verification
+    - button "New Verification" [ref=f2e12]
+    - textbox "Search history..." [ref=f2e19]
+    - generic [ref=f2e21]:
+      - paragraph [ref=f2e22]: No verifications yet.
+      - paragraph [ref=f2e23]: Start with a claim.
+  - main [ref=f2e24]:
+    - generic [ref=f2e26]:
+      - generic [ref=f2e27]: F
+      - heading "Fact Check AI" [level=2] [ref=f2e30]
+      - paragraph [ref=f2e31]: Verify claims with multi-source evidence. The agent checks RSS feeds, web sources, and scores trust automatically.
+      - generic [ref=f2e32]:
+        - generic [ref=f2e34]:
+          - textbox "Paste a claim or headline you want to verify..." [ref=f2e35]
+          - button "Submit claim" [disabled] [ref=f2e36]
+        - generic [ref=f2e39]:
+          - generic [ref=f2e40]: Try an example
+          - generic [ref=f2e44]:
+            - button "Kangana Ranaut showed her middle fing..." [ref=f2e45]
+            - button "COVID-19 vaccines contain microchips" [ref=f2e46]
+            - button "The 2024 election results were rigged..." [ref=f2e47]
+      - generic [ref=f2e49]:
+        - generic [ref=f2e50]: Try an example
+        - generic [ref=f2e54]:
+          - button "COVID-19 vaccines contain tracking microchips Health claim" [ref=f2e55]:
+            - generic [ref=f2e56]: COVID-19 vaccines contain tracking microchips
+            - text: Health claim
+          - button "The 2024 US election results were manipulated Election claim" [ref=f2e57]:
+            - generic [ref=f2e58]: The 2024 US election results were manipulated
+            - text: Election claim
+          - button "Climate change is a complete hoax Science claim" [ref=f2e59]:
+            - generic [ref=f2e60]: Climate change is a complete hoax
+            - text: Science claim

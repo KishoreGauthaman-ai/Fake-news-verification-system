@@ -1,0 +1,35 @@
+[     939ms] [LOG] %cMMT background-color:#dddddd; border-radius:3px;padding:0 3px SCRIPT 1 CORE @ https://monu.delivery/site/d/6/f1cf9a-4fba-480f-8259-046c875972fc.js:3
+[     986ms] [WARNING] Allow attribute will take precedence over 'allowfullscreen'. @ https://www.factualamerica.com/conspiracy-critic/needles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:1881
+[    1382ms] [WARNING] yui: NOT loaded: squarespace-visitor_site_error_reporter @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1383ms] [WARNING] yui: NOT loaded: squarespace-cldr_resource_pack @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1383ms] [WARNING] yui: NOT loaded: squarespace-common_vendors_stable @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1383ms] [WARNING] yui: NOT loaded: squarespace-common_vendors @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1390ms] [WARNING] yui: NOT loaded: squarespace-performance @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1452ms] [WARNING] jQuery.Deferred exception: event.preventDefault is not a function TypeError: event.preventDefault is not a function
+    at HTMLDocument.<anonymous> (https://www.factualamerica.com/conspiracy-critic/needles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:4107:7)
+    at l (https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js:2:29375)
+    at c (https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js:2:29677) undefined @ https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js:1
+[    1509ms] [WARNING] yui: NOT loaded: squarespace-visitor_site_error_reporter @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1509ms] [WARNING] yui: NOT loaded: squarespace-cldr_resource_pack @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1510ms] [WARNING] yui: NOT loaded: squarespace-common_vendors_stable @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1510ms] [WARNING] yui: NOT loaded: squarespace-common_vendors @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1510ms] [WARNING] yui: NOT loaded: squarespace-performance @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-784b947826b4c445-min.en-US.js:7
+[    1560ms] Uncaught TypeError: event.preventDefault is not a function
+    at <anonymous> (https://www.factualamerica.com/conspiracy-critic/needles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:4106:6)
+    at l (https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js:1:29374)
+    at c (https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js:1:29676)
+[    1775ms] Unexpected identifier 'Matomo'
+[    1817ms] [LOG] Found article element using selector: main @ https://koala.sh/api/eucalyptus.js?domainId=7b1dafbf-034f-409b-a2ab-923480323622&page=https%3A%2F%2Fwww.factualamerica.com%2Fconspiracy-critic%2Fneedles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:136
+[    1818ms] [LOG] Duration: 0.50ms @ https://koala.sh/api/eucalyptus.js?domainId=7b1dafbf-034f-409b-a2ab-923480323622&page=https%3A%2F%2Fwww.factualamerica.com%2Fconspiracy-critic%2Fneedles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:222
+[    1818ms] [LOG] Duration: 0.10ms @ https://koala.sh/api/eucalyptus.js?domainId=7b1dafbf-034f-409b-a2ab-923480323622&page=https%3A%2F%2Fwww.factualamerica.com%2Fconspiracy-critic%2Fneedles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:222
+[    1819ms] [LOG] Duration: 0.60ms @ https://koala.sh/api/eucalyptus.js?domainId=7b1dafbf-034f-409b-a2ab-923480323622&page=https%3A%2F%2Fwww.factualamerica.com%2Fconspiracy-critic%2Fneedles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:222
+[    1820ms] [LOG] Duration: 0.60ms @ https://koala.sh/api/eucalyptus.js?domainId=7b1dafbf-034f-409b-a2ab-923480323622&page=https%3A%2F%2Fwww.factualamerica.com%2Fconspiracy-critic%2Fneedles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:222
+[    1825ms] [LOG] Duration: 5.10ms @ https://koala.sh/api/eucalyptus.js?domainId=7b1dafbf-034f-409b-a2ab-923480323622&page=https%3A%2F%2Fwww.factualamerica.com%2Fconspiracy-critic%2Fneedles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:222
+[    1826ms] [LOG] Duration: 0.70ms @ https://koala.sh/api/eucalyptus.js?domainId=7b1dafbf-034f-409b-a2ab-923480323622&page=https%3A%2F%2Fwww.factualamerica.com%2Fconspiracy-critic%2Fneedles-and-nanochips-injecting-truth-into-the-vaccine-microchip-myth:222
+[    1900ms] [LOG] SiteSearch360 14.1.467 initialized to #searchBox @ https://assets.squarespace.com/universal/scripts-compressed/21079-b90c422697302704-min.en-US.js:488
+[    1906ms] [LOG] [Visitor Sentry] Initialized and sending events @ https://assets.squarespace.com/universal/scripts-compressed/21079-b90c422697302704-min.en-US.js:488
+[    2008ms] [WARNING] Unrecognized feature: 'web-share'. @ https://www.youtube.com/s/player/7460dd14/www-widgetapi.vflset/www-widgetapi.js:146
+[    2335ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://cdn.embedly.com'). @ https://www.youtube.com/s/player/7460dd14/www-widgetapi.vflset/www-widgetapi.js:162
+[    2658ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://cdn.embedly.com'). @ https://www.youtube.com/s/player/7460dd14/www-widgetapi.vflset/www-widgetapi.js:162
+[    2689ms] [LOG] %cMMT background-color:#dddddd; border-radius:3px;padding:0 3px SCRIPT 2 CORE @ https://assets.squarespace.com/universal/scripts-compressed/21079-b90c422697302704-min.en-US.js:488
+[    2776ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://static.doubleclick.net/instream/ad_status.js:0
