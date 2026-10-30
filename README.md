@@ -27,6 +27,7 @@ Full-stack fact-check verification application with a multi-source agent, persis
 
 ---
 
+
 ## Agent Rules (Explicitly in System Prompt)
 
 - Must use **more than one tool** before concluding — never verdict off a single source.
