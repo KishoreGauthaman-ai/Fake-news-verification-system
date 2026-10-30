@@ -1,4 +1,0 @@
-[     528ms] The requested module '/src/types/index.ts' does not provide an export named 'HistoryResponse'
-[  362252ms] [ERROR] WebSocket connection to 'ws://localhost:5173/?token=_7sN2acU3wdx' failed:  @ http://localhost:5173/@vite/client:895
-[  362266ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:1030
-[  365131ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7673c82c:15804

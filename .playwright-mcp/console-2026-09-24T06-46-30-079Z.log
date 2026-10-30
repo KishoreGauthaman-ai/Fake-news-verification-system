@@ -1,4 +1,0 @@
-[  199922ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8000/verify:0
-[  199922ms] [ERROR] Verification failed: Error: API error 500: {"detail":"GROQ_API_KEY not set in .env"}
-    at Ae (http://localhost:5173/assets/index-DOP5l4gJ.js:9:57345)
-    at async http://localhost:5173/assets/index-DOP5l4gJ.js:14:15509 @ http://localhost:5173/assets/index-DOP5l4gJ.js:13

@@ -1,8 +1,0 @@
-[ 2837093ms] [ERROR] Failed to load resource: the server responded with a status of 422 (Unprocessable Entity) @ http://localhost:8000/history/search?q=f&limit=20:0
-[ 2837094ms] [ERROR] Search error: Error: API error 422: {"detail":[{"type":"int_parsing","loc":["path","id"],"msg":"Input should be a valid integer, unable to parse string as an integer","input":"search"}]}
-    at Bc (http://localhost:5173/assets/index-BBdsbvqB.js:9:170106)
-    at async http://localhost:5173/assets/index-BBdsbvqB.js:9:172039 @ http://localhost:5173/assets/index-BBdsbvqB.js:8
-[ 2841607ms] [ERROR] Failed to load resource: the server responded with a status of 422 (Unprocessable Entity) @ http://localhost:8000/history/search?q=u&limit=20:0
-[ 2841608ms] [ERROR] Search error: Error: API error 422: {"detail":[{"type":"int_parsing","loc":["path","id"],"msg":"Input should be a valid integer, unable to parse string as an integer","input":"search"}]}
-    at Bc (http://localhost:5173/assets/index-BBdsbvqB.js:9:170106)
-    at async http://localhost:5173/assets/index-BBdsbvqB.js:9:172039 @ http://localhost:5173/assets/index-BBdsbvqB.js:8
