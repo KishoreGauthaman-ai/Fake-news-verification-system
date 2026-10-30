@@ -55,7 +55,6 @@ Full-stack "Fact Check AI" application built with senior-engineer quality. Looks
 
 ```
 GROQ_API_KEY=<your valid Groq key — the app fails with 401 "Invalid API Key" if wrong>
-GOOGLE_FACT_CHECK_API_KEY=AIzaSyAhjTa_j9w6AG7Nthz7ddcdf5ku1oI5u60
 # Optional — override the LLM (default: qwen/qwen3-32b)
 GROQ_MODEL=qwen/qwen3-32b
 ```
